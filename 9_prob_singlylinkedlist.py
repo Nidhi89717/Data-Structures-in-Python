@@ -38,7 +38,7 @@ class Linkedlist:
         else:
             print("Node doesn't exist!")
             return
-        self.length += 1
+        self.length -= 1
 
     def delete_front(self):
         next = self.head.next
